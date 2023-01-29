@@ -31,8 +31,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Running Python command
         run: |
-              python
-	      print('hello sanket')
+              python script2.py
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
